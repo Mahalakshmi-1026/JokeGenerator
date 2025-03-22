@@ -1,0 +1,38 @@
+
+body{
+    background: linear-gradient(180deg, rgb(234, 30, 64),rgb(242, 175, 186));
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100w;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: beige;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    margin-top: 68px;
+    font-size: 68px;
+}
+#button{
+    width: 168px;
+    height: 60px;
+    background: white;
+    color: black;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+}
+#button:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 3px pink;
+}
+#jokecontent,#joke{
+    font-size: 40px;
+    line-height: 38px;
+}
+#jokecontent,img{
+    margin-top: 10px;
+}
